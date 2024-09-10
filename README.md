@@ -123,7 +123,7 @@ Returns a formatted GraphQL SDL String.
 ```js
 import {formatSdl} from 'format-graphql';
 
-formatGraphql('type Foo { bar: String }');
+formatSdl('type Foo { bar: String }');
 ```
 
 ### Hooks
